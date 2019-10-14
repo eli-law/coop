@@ -32,6 +32,26 @@
       }
       .row.content {height: auto;} 
     }
+
+    h2 {
+      text-align: center;
+    }
+
+    table caption {
+      padding: .5em 0;
+    }
+
+    @media screen and (max-width: 767px) {
+      table caption {
+        border-bottom: 1px solid #ddd;
+      }
+    }
+
+    .p {
+      text-align: center;
+      padding-top: 140px;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
@@ -41,7 +61,6 @@
     <div class="row">
       <div class="col-xs-12">
         <div class="table-responsive">
-            <caption class="text-center">An example of a responsive table based on <a href="https://getbootstrap.com/css/#tables-responsive" target="_blank">Bootstrap</a>:</caption>
             <thead>
               <tr>
                 <th>Homework</th>
